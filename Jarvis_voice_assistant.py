@@ -117,6 +117,9 @@ if __name__ == '__main__':
             speak("Opening NotePad")
             path = 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Notepad'
             os.startfile(path)
+        
+        else:
+            speak("Sorry service is not available for this command, i apologies for that, You can give other commands thank you")
 
         
 
